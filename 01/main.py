@@ -6,8 +6,7 @@ raw_content = file.readlines()
 position = 50
 count = 0
 
-""" PART A 
-
+"""
 for item in raw_content:
     item = item.replace('\n', '')
     direction, amount = item[0], int(item[1:])
@@ -23,8 +22,8 @@ for item in raw_content:
         count += 1
 
 print(count)
-
 """
+
 
 #### PART B ####
 
