@@ -53,7 +53,7 @@ def overlap(range_a, range_b): # check if two ranges overlap
 def merge_overlaps(overlap_in, range_list):
     overlapping = overlap_in
     current_list = range_list
-    print(current_list)
+    # print(current_list)
     if overlapping:
         overlapping = False
         list_length = len(current_list)
