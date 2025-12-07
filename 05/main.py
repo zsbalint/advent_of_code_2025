@@ -80,7 +80,7 @@ def merge_overlaps(overlap_in, range_list):
 def process_b(in_range, nthng):
     ranges = in_range
     merged_list = merge_overlaps(True, ranges)   
-
+    print(merged_list)
     result = 0
 
     for ranges in merged_list:
